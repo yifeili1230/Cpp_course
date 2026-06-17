@@ -1,0 +1,11 @@
+function(enable_project_warnings target_name)
+    if(NOT ENABLE_STRICT_WARNINGS)
+        return()
+    endif()
+
+    if(MSVC)
+        target_compile_options(${target_name} PRIVATE /W4)
+    else()
+        target_compile_options(${target_name} PRIVATE -Wall -Wextra -Wpedantic)
+    endif()
+endfunction()

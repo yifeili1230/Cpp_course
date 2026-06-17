@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Icmake
+    - -Ilectures/lecture_01/include
+    - -Ilectures/lecture_02/include

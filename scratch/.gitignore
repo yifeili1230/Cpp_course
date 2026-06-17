@@ -1,0 +1,17 @@
+build/
+cmake-build-*/
+.cache/
+compile_commands.json
+lectures/*/build/
+
+# Local binary/data artifacts from quick compiler experiments.
+/main
+/image.dat
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.i
+*.s

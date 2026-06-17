@@ -1,0 +1,37 @@
+# Build directories generated locally by CMake or IDEs.
+build/
+cmake-build-*/
+
+# CMake generated files.
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Compiled objects, libraries, and executables.
+bin/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+
+# Common local binaries for these coursework projects.
+main
+
+# Local test/output folders.
+results/
+install/
+
+# Editor and OS files.
+.vscode/
+.idea/
+.DS_Store
+
+# Windows alternate data stream metadata copied from downloads.
+*:Zone.Identifier
